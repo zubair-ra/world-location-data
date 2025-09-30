@@ -1,15 +1,55 @@
 {
-  "name": "country-pkg",
+  "name": "world-location-data",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Comprehensive world location data package with 250+ countries, 5000+ states, and 150K+ cities. Includes rich metadata like timezones, currencies, coordinates, translations, and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^5.1.0"
+  "keywords": [
+    "countries",
+    "cities",
+    "states",
+    "provinces",
+    "world-data",
+    "location-data",
+    "geo-data",
+    "geography",
+    "timezone",
+    "currency",
+    "coordinates",
+    "latitude",
+    "longitude",
+    "iso-codes",
+    "country-codes",
+    "translations",
+    "regions",
+    "subregions"
+  ],
+  "author": "Zubair RA",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zubair-ra/world-location-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zubair-ra/world-location-data/issues"
+  },
+  "homepage": "https://github.com/zubair-ra/world-location-data#readme",
+  "files": [
+    "dist",
+    "public/data",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
